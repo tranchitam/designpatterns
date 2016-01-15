@@ -3,7 +3,7 @@ package org.tctam.designpatterns.creational.abstractfactory;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FactoryProducer {
+public class ProductFactoryProducer {
     private static Map<String, ProductFactory> productFactories = new HashMap<String, ProductFactory>();
 
     static {
