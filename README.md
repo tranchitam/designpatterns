@@ -3,3 +3,4 @@ If you are a software developer, I believe that you have ever heard about design
 
 - Factory: Create concrete products.
 - AbstractFactory: Create abstract products.
+- Singleton: Singleton can create only one instance.
