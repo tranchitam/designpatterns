@@ -9,7 +9,7 @@ public class Client {
         ActionObserver clickActionObserver = new ClickActionObserver(actionObservable);
         ActionObserver mouseDownActionObserver = new MouseDownActionObserver(actionObservable);
 
-        // 2 events are fired
+        // 3 events are fired
         actionObservable.doDefault();
         // 1 event is fired
         actionObservable.doClick();
