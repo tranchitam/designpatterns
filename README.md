@@ -9,3 +9,4 @@ Creational patterns:
 
 Behavioural patterns:
 - Observer: Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its dependent objects are to be notified automatically.
+- Chain of responsibility: Create a series of request handlers. Based on the content of request and condition, the request will be handled or passed to next request handler.
