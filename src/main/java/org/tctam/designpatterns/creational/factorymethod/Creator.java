@@ -1,11 +1,11 @@
 package org.tctam.designpatterns.creational.factorymethod;
 
 public abstract class Creator {
+	
+	public void doSomething() {
+		Product p = getProduct();
+		p.doSomething();
+	}
 
-    public void doOperation() {
-        Product product = getProduct();
-        product.doOperation();
-    }
-
-    protected abstract Product getProduct();
+	public abstract Product getProduct();
 }

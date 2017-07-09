@@ -1,4 +1,4 @@
-package org.tctam.designpatterns.creational.factory;
+package org.tctam.designpatterns.creational.abstractfactory;
 
 public class RedColor implements Color {
 	public static final String NAME = RedColor.class.getName();
